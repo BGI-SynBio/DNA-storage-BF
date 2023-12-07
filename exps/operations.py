@@ -2,7 +2,6 @@ import copy
 import datetime
 import random
 import numpy as np
-import linecache
 from collections import Counter
 
 

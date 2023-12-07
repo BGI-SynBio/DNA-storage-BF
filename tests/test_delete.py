@@ -1,8 +1,6 @@
 import random
 import unittest
-
 import math
-
 import bean.bloom as bloom
 
 

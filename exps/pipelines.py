@@ -8,8 +8,7 @@ import os
 from utils.model_saver import save_model, load_model
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np 
-# import xlsxwriter
+import numpy as np
 import datetime
 import random
 from collections import Counter
@@ -31,7 +30,7 @@ class ErrorCounterOneFile(object):
         :param expected_rate: expected rate of the Bloom Filter.
         :type : float
 
-        :param payload_length: payload length in each oligo.
+        :param payload_length: payload length in each DNA sequence.
         :type : int
 
         :param digital_count: digital count of DNA sequences.
